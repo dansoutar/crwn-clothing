@@ -15,13 +15,6 @@ import { setCurrentUser } from './redux/user/user.actions';
 
 
 
-const HatsPage = () => (
-  <div>
-    <h1>Hats Page</h1>
-  </div>
-);
-
-
 class App extends React.Component {
 
   unsubscribeFromAuth = null;
