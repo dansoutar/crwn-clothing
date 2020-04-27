@@ -6,7 +6,7 @@
     padding: 15px 0;
     font-size: 20px;
     align-items: center;
-  
+  s
     .image-container {
       width: 23%;
       padding-right: 15px;
@@ -23,6 +23,17 @@
     }
   
     .quantity {
+      display: flex;
+
+      .arrow {
+        cursor: pointer;
+      }
+
+      .value {
+        margin: 0 10px;
+      }
+    }
+    .name {
       padding-left: 20px;
     }
   
